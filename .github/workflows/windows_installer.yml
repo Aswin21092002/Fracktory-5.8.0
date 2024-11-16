@@ -51,8 +51,8 @@ on:
           default: false
           type: boolean
   
-  permissions:
-    contents: read
+permissions:
+  contents: read
 
 env:
   # CONAN_LOGIN_USERNAME: ${{ secrets.CONAN_USER }}
